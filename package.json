@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-sass-purple",
+  "version": "0.0.0",
+  "description": "bootstrap-sass is a Purple edition of the Sass-powered version of Bootstrap, ready to drop right into your Sass powered applications.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/purple-dbu/bootstrap-sass-purple"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "css",
+    "purple"
+  ],
+  "contributors": [
+    "Alexandre Mercier"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/purple-dbu/bootstrap-sass-purple/issues"
+  }
+}
