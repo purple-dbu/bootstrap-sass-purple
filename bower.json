@@ -6,13 +6,15 @@
     "Alexandre Mercier"
   ],
   "description": "bootstrap-sass-purple is a Purple edition of the Sass-powered version of Bootstrap, ready to drop right into your Sass powered applications.",
-  "main": [
-  ],
+  "main": [],
   "keywords": [
     "twbs",
     "bootstrap",
     "sass",
     "purple"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-sass-official": "~3.1.1"
+  }
 }
