@@ -21,6 +21,10 @@ angular
         templateUrl: 'views/examples.html',
         controller: 'ExamplesCtrl'
       })
+      .when('/getting-started', {
+        templateUrl: 'views/getting-started.html',
+        controller: 'GettingStartedCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
