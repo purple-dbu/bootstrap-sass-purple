@@ -1,6 +1,6 @@
 $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
 
-@import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+@import 'bootstrap-sass-purple/src/scss/bootstrap';
 
 // bower:scss
 // endbower
@@ -91,4 +91,49 @@ body {
     .jumbotron {
         border-bottom: 0;
     }
+}
+
+// =============================================================================
+
+$doc-example-border: #ddd;
+$doc-example-color: #bbb;
+$doc-example-background: inherit;
+$doc-example-padding-h: 2em;
+$doc-example-padding-v: 1em;
+$doc-example-margin-h: 0;
+$doc-example-margin-v: 1em;
+$doc-example-font-size: 1.3em;
+
+$doc-grid-border: #ccc;
+$doc-grid-background: #eee;
+$doc-grid-color: inherit;
+
+.doc-grid {
+  .row {
+    margin: 1em 0;
+
+    > div {
+      background: $doc-grid-background;
+      border: 1px solid $doc-grid-border;
+      color: $doc-grid-color;
+      padding: 0.2em 0.5em;
+    }
+  }
+}
+
+.doc-example {
+  background: $doc-example-background;
+  border: 1px solid $doc-example-border;
+  margin: $doc-example-margin-v $doc-example-margin-h;
+  padding: $doc-example-padding-v $doc-example-padding-h;
+  position: relative;
+
+  &:before {
+    content: 'Example';
+    color: $doc-example-color;
+    display: block;
+    font-size: $doc-example-font-size;
+    margin-bottom: ($doc-example-padding-v / $doc-example-font-size) * 1em;
+    text-transform: lowercase;
+  }
 }
